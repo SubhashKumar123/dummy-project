@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Offer Letter</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      </meta>
+      <style type="text/css">
+         body {
+         font-size: 14px;
+         background:#eee;
+         }
+         .salarytable {
+         border-collapse: collapse;
+         }
+         .salarytable td,
+         .salarytable th {
+         border: 1px solid #666;
+         padding: 4px;
+         }
+         p{ font-size: 13px; line-height: 20px; text-align: justify;padding:10px}
+         ul li, ol li{ font-size: 13px; line-height: 20px; text-align: justify;}
+         @page {
+         size: auto;   /* auto is the initial value */
+         margin: 10%;
+         }
+      </style>
+   </head>
+   <body>
+      <div style="width:100%; margin:0px auto; background:#fff;">
+         <table style="width:100%;">
+            <tr style="margin-top:20px">
+               <td colspan="5" >
+                  <p style="text-align: right !important;">Ref No.: [[${refId}]]</p>
+                  <p style="text-align: right !important;">Date: [[${currDate}]]</p>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="5">&nbsp;</td>
+            </tr>
+            <tr>
+               <td colspan="5" style="text-align: center;"><u>OFFER OF EMPLOYMENT</u></td>
+            </tr>
+            <tr>
+               <td colsapn="5">&nbsp;</td>
+            </tr>
+            <tr>
+               <td colsapn="5">
+                  <p>To,</p>
+                  <p>[[${candidateName}]]</p>
+                  <p>[[${address}]]</p>
+                  <p>[[${country}]]</p>
+               </td>
+            </tr>
+            <tr>
+               <td colsapn="5">
+                  <p>SUB: OFFER FOR THE POST OF “CONSULTANT”</p>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="5">
+                  <p>Congratulations! With reference to your application and subsequent interview with us for a
+                     career in our organization, we are pleased to inform you that you have been selected for
+                     employment in our organization as
+                     “Consultant” based at Noida,UP,India.
+                  </p>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="5">
+                  <p>Established in the year 2011, In2IT Technologies is a CMMI Level 3 certified company.
+                     It is also ISO 9001, ISO 20001 and ISO 27001 certified Company. In2IT Technologies is one of the
+                     few successful icons in
+                     Indian software industry dedicated towards continuous improvement of all processes, so that
+                     consistent quality standards are always met.
+                     Recognized for our proven competency in implementing and deploying high-class business solutions
+                     we have actually revolutionized our
+                     presence across the globe. At In2IT Technologies, a strong "Total Quality Management" culture
+                     prevails that enable us to offer solutions
+                     that exceed expectations at every level.
+                  </p>
+                  <p>In2IT Technologies holds pride in IT Consultancy, Application Development and Maintenance,
+                     Technology Infrastructure Services, Programme and Project
+                     Management, Future Edge Services to its Clientele. In2IT Technologies focuses on keeping its
+                     clients in the mainstream of continually evolving
+                     IT Landscape.
+                  </p>
+                  <p> We take this opportunity to thank and appreciate your decision to join In2IT Technologies. You are
+                     required to join us on or before
+                     [[${joiningDate}]].
+                  </p>
+                  <p>Subject to the signing of our Employment Agreement, you shall be provided with remuneration as
+                     detailed under Annexure A.
+                  </p>
+                  <p><u>Tenure:</u> Your employment with us would be for an indefinite period of time and commence on
+                     [[${joiningDate}]] under
+                     the condition that you will work in Bhubaneswar office and subsequently move to our South Africa
+                     office provided you have a
+                     valid employment authorization to work in South Africa or that you have received a positive
+                     decision that permits you to work
+                     on your Residence Permit application allowing you to perform the duties under this Employment
+                     contract.
+                  </p>
+                  <p>This Agreement automatically stands terminated on the day on which the Associate separates from
+                     the organization which includes all categories of separation
+                     including retirement in accordance with the applicable India laws.
+                  </p>
+                  <p><u>Location:</u> You shall perform your duties at [[${officeLocation}]] of In2IT Technologies until we
+                     agree for you to operate from our office in any other location and
+                     then you will be deputed to the required location of Operations at In2IT Technologies / it’s
+                     client's premises / home office as instructed from time to time by
+                     the Company. The performance of your duties may from time to time require travel within and
+                     outside Noida in order to promote the Company's interests.
+                  </p>
+                  <p>You may be relocated to any other location / base location (including any other Country) on
+                     completion of your assignment or at any time earlier depending on the business needs and
+                     exigencies of In2IT Technologies.
+                  </p>
+                  <p>Your refusal to travel / relocate would be considered to be a breach of terms of this contract.
+                  </p>
+                  <p>Responsibilities: The job description may from time to time be amended by the Company at its
+                     discretion and you may be required to undertake additional or
+                     other duties as necessary to meet the needs of the business from time to time. You will render
+                     all reasonable duties expected of you including but not limited
+                     to your current job profile. You will perform all acts, duties and obligations and comply with
+                     such instructions as may be designated by the Company and which
+                     are reasonably consistent with your job title. During the tenure of your employment, you will
+                     devote your full time, attention and abilities to the performance
+                     of your assignment(s) and to act in the best interests of the Company. You will also agree to
+                     comply with In2IT Technologies policies and standards in force and
+                     from time to time.
+                  </p>
+                  <p><u><b>Working Hours:</b></u> You shall be present in the office during normal working hours as
+                     per In2IT Technology, policies. You may be required to work
+                     additional hours/ in different shifts if In2IT Technologies / its Clients require you to do so.
+                     You shall provide details regarding the utilization of your
+                     time by entering the same into In2IT Technologies leave tool on a daily basis.
+                  </p>
+                  <p><u>Compensation and Benefits:</u> You will be paid with a fixed basic component of INR [[${ctc}]] [[${words}]]
+                     other components (Details as per Annexure A). You shall not disclose the terms of your
+                     remuneration to third parties including other Associates of the Company.
+                  </p>
+                  <p><u><b>Statutory Deductions:</b></u> In2IT Technologies shall make necessary statutory deductions
+                     from your gross salary and directly pay on your
+                     behalf to the concerned authorities. In the instances where the Company is not under an
+                     obligation to make these deductions, you will agree to make such
+                     payments to the concerned authorities keeping the Company informed.
+                  </p>
+                  <p><u><b>Insurance:</b></u> You and your immediate dependents, as applicable, will receive Health
+                     Insurance as per In2IT Technologies’ insurance scheme.
+                     Company reserves the right to terminate its participation in any of the schemes or substitute
+                     another scheme, or alter the benefits available to you under
+                     any of the schemes.
+                  </p>
+                  <p><u><b>Vacation / Leave and Holidays:</b></u> You will be entitled to annual paid leave and
+                     holidays as per In2IT Technologies’ policy applicable at the time in
+                     the country of your assignment. Paid leave will be accrued on a pro-rata basis. The Company's
+                     holiday year is from 1st of January to 31st December.
+                     You are required to give twice the length of the holiday as notice for leave to your Reporting
+                     Manager.
+                  </p>
+                  <p><u><b>Sick Leave:</b></u> You will be entitled to sick leave as per In2IT Technologies Policy as
+                     applicable in the country of your assignment.
+                     If you are absent from work on account of sickness or injury, you or someone on your behalf
+                     should inform your Line Manager of the reason for your
+                     absence as soon as possible, but no later than 10.00 a.m. on the working day on which absence
+                     first occurs. You shall also submit a medical certificate to
+                     respective HR within two (2) days of resuming work after such leave.
+                  </p>
+                  <p><u><b>Status Reports:</b></u> You will provide In2IT Technologies’ with any reports that are
+                     deemed necessary including periodic summaries of your
+                     work-related activities and professional accomplishments.
+                  </p>
+                  <p><u><b>Confidentiality:</b></u></p>
+                  <ol style="list-style-type: lower-alpha;">
+                     <li>You are expected to maintain utmost secrecy with regard to the affairs of In2IT Technologies
+                        and its clients and shall keep confidential any and all data,
+                        information, instruments, documents, methodologies, tools, structure, business or trade
+                        secrets, formulae etc., relating to In2IT Technologies and/or its
+                        clients that may come to your knowledge as an Associate of In2IT Technologies during the
+                        tenure of your employment with In2IT Technologies, and at any time
+                        thereafter. During the period of your employment, you will work honestly, faithfully,
+                        diligently and efficiently for the growth of In2IT Technologies you shall
+                        execute / sign such other non- disclosure agreements as and when required by In2IT
+                        Technologies or the Client.
+                     </li>
+                     <li> You must return to the Company, upon request, and in any event, upon termination of your
+                        employment, all documents and tangible items which belong to
+                        the Company or which refer to any confidential information and which are in your possession
+                        or under your control.
+                     </li>
+                     <li> You must, if requested by the Company, delete all confidential information from any
+                        reusable material and destroy all other documents and tangible
+                        items which contain or refer to any confidential information and which are in your
+                        possession or under your control.
+                     </li>
+                  </ol>
+                  <p> You hereby waive any right of retention in this respect.</p>
+                  <p>You shall execute / sign the Confidentiality Agreement / Covenant as and when required by In2IT
+                     Technologies or the Client.
+                  </p>
+                  <p><u><b>Intellectual Property Rights:</b></u> You agree to disclose any invention, development,
+                     process, plan, design, formula, specification, program or other matter of work
+                     whatsoever (collectively "the Inventions") created, developed or discovered by you, either alone
+                     or in concert, in the course of your employment and the same
+                     shall be the absolute property of the Company. Any Intellectual Property Rights and rights to
+                     inventions arise out of your activities hereunder, or if ownership
+                     rights cannot be transferred under applicable law, any exploitation rights relating thereto,
+                     shall be transferred to the Company in accordance with applicable law.
+                     You shall, as and when requested by the Company (at Company's cost and expense), assist the
+                     Company in perfecting the Intellectual Property Rights in any manner the
+                     Company deems fit. You shall execute / sign the Intellectual Property Rights Assignment document
+                     as and when required by In2IT Technologies or the Client.
+                  </p>
+                  <p><u><b>Exclusive Employment and Conflict of Interest:</b></u> During your employment with In2IT
+                     Technologies you are not to take up any other employment, profession,
+                     vocation or calling either by yourself or through partnership or any other form of association,
+                     subject to the exceptions that such restrictions will not
+                     apply to your hobbies like contributing articles to technical and other publications, music,
+                     photography, sports and other similar activities.
+                     You are also restricted from undertaking any activities that will create conflict of interests
+                     to your employment and/or work with In2IT Technologies.
+                     However, this does not preclude your holding up to 5% of any class of securities in any company
+                     which is quoted on a recognized Stock Exchange.
+                     Membership in the board of directors or supervisory board of other enterprises shall be subject
+                     to the Company's prior written consent.
+                  </p>
+                  <p><u><b>Non-Solicitation / Non-Compete:</b></u></p>
+                  <p>You acknowledge that you have signed Covenant against Disclosure and Covenant Not to
+                     Compete/Non-Solicitation ("Covenant"),
+                     which is incorporated into this Agreement by reference and is made a part of this Agreement, and
+                     that it constitutes an integral part of
+                     the terms of your employment. In the Covenant, you have agreed that for a period of one (1) year
+                     following termination of your employment for any reason whatsoever
+                  </p>
+                  <ul>
+                     <li> You will not compete with In2IT Technologies by joining a competitor as defined by the
+                        current clients at In2IT Technologies.
+                     </li>
+                     <li> You will not interfere with its business relations, including but not limited to soliciting
+                        or providing services to any of In2IT
+                        Technologies' clients (except as directed by In2IT Technologies) directly or indirectly.
+                     </li>
+                     <li> You will not be employed by a client of In2IT Technologies, for which you performed
+                        services while employed by In2IT Technologies.
+                     </li>
+                     <li> You will not solicit or induce In2IT Technologies Employees to join a client or to compete
+                        with In2IT Technologies.
+                     </li>
+                     <li>You undertake not to solicit or induce or endeavor to solicit or induce any consultant,
+                        supplier or service provider to cease to deal with the Company and shall not interfere in
+                        any way with any relationship between a consultant,
+                        a supplier or a service provider and the Company.
+                     </li>
+                  </ul>
+                  <p><u><b>Separation:</b></u> You acknowledge that your association with the Company is crucial and
+                     any severance without notice on your part will cause irreparable damage / injury to In2IT
+                     Technologies. Hence, you agree to give 3 Months’ written notice of your intention to terminate
+                     your employment, failing which, In2IT Technologies will be entitled to seek all such equitable
+                     and injunctive relief as is available to In2IT Technologies. Company may terminate your
+                     employment by giving minimum 30 days’ written notice of or Company may at its absolute
+                     discretion make a payment (s) representing basic salary in lieu of notice of termination. Also
+                     in case if your background verification is reported negative or unsatisfactory, your employment
+                     would be terminated immediately without notice.
+                  </p>
+                  <p>All the other separation / termination conditions would be as per applicable local laws.</p>
+                  <p>However, for misconduct, gross negligence, misbehavior or non-performance, In2IT Technologies may
+                     terminate your services with immediate notice. The Company shall have the right to suspend you
+                     on
+                     full pay and benefits pending any investigation into potential dishonesty, gross misconduct,
+                     misappropriation, gross negligence, fraud or other circumstances (if proved) would entitle the
+                     Company to dismiss your services summarily.
+                  </p>
+                  <p><u><b>Suspension of Employment:</b></u> If the Company suspects that you are guilty of the
+                     conduct which may, if
+                     proved, justifies your dismissal, or has committed a breach of any of the terms (whether
+                     material or
+                     otherwise) of this Agreement, it may, pending a duly constituted enquiry into the alleged
+                     conduct in
+                     question, but without prejudice to its right of summary dismissal and without giving rise to any
+                     claim for damages or otherwise against it, suspend you for a period not exceeding 30 (thirty)
+                     days,
+                     during which you shall –
+                  </p>
+                  <ol style="list-style-type: lower-alpha;">
+                     <li> Not be entitled to work for the Company;</li>
+                     <li> Not be entitled to attend any board meetings of the Company; and</li>
+                     <li> Not be entitled to any of his or her benefits in terms of this Agreement, other than his or
+                        her agreed remuneration and those benefits which are deducted from his or her remuneration.
+                     </li>
+                     s
+                  </ol>
+                  <p><u><b>Performance Review:</b></u> Your performance may be reviewed periodically as per In2IT
+                     Technologies’
+                     policies during such assignment and on your failing to meet In2IT Technologies / clients
+                     requirements you may be recalled from the assignment.
+                  </p>
+                  <p><u><b>Governing Law and Jurisdiction:</b></u> Your work in India shall be governed by, construed
+                     and enforced in
+                     accordance with the laws of India. Any claims for damages for breach of this Agreement shall be
+                     made
+                     in the courts of competent jurisdiction in India and the parties agree to submit to the personal
+                     jurisdiction of such courts. Any claims for injunctive relief(s) arising out of this Agreement
+                     may
+                     be brought in any court of competent jurisdiction.
+                  </p>
+                  <p><u><b>Damages:</b></u> You are aware that in order to fulfill your assignment, it will be
+                     necessary for In2IT
+                     Technologies to make substantial efforts and incur expenses. In the event that you breach this
+                     agreement, by leaving a project in violation of this agreement, In2IT Technologies shall have
+                     the
+                     right to seek actual damages, including direct and consequential damages and loss of profits. In
+                     any
+                     action to enforce this Agreement, the prevailing party may recover, in addition to damages and
+                     appropriate equitable relief, all attorneys’ fees and costs incurred.
+                  </p>
+                  <p><u><b>Indemnification:</b></u> You shall indemnify, defend and hold In2IT Technologies its
+                     officers, directors,
+                     Associates and agents, harmless from any and all claims, causes of action, damages, obligations
+                     or
+                     liabilities or any kind or nature arising out of or connected with any act or omission of
+                     yourself
+                     during the course of the employment with In2IT Technologies Inc and thereafter.
+                  </p>
+                  <p><u><b>In2IT Technologies Policies: </b></u>You are required to comply with all the policies as
+                     communicated to the
+                     Associates of In2IT Technologies, from time to time. These policies are available on In2IT
+                     Technologies’ intranet. You are requested to visit the site at frequent intervals to get all
+                     updates
+                     / changes. By signing a copy of this letter, you are consenting that you will visit the intranet
+                     site and get familiar with In2IT Technologies’ policies. In2IT Technologies reserves the right
+                     to
+                     interpret, change, suspend or terminate any of its benefits, policy plans or programs in
+                     accordance
+                     with its needs from time to time
+                  </p>
+                  <p><u><b>Anti-bribery:</b></u> During the term of employment, you must at all times:</p>
+                  <ol>
+                     <li> Comply with all applicable laws, regulations, codes and sanctions relating to anti‐bribery
+                        and anti‐ corruption (the anti-bribery laws);
+                     </li>
+                     <li>Not engage in any activity, practice or conduct which would constitute, or be likely to
+                        constitute, an offence under the anti-bribery laws.
+                     </li>
+                     <li> Comply with all policies that the Company may introduce or implement from time to time
+                        which directly or indirectly, deal with, or relate to,
+                        the anti-bribery laws.
+                     </li>
+                     <li> Upon request by the Company, provide such evidence as the Company may reasonably require
+                        demonstrating his compliance with this clause.
+                     </li>
+                  </ol>
+                  <p> You expressly acknowledge and agree that any non‐compliance by yourself with the requirements of
+                     this clause shall entitle the Company to
+                     terminate your employment contract with immediate effect and initiate appropriate legal action
+                     against you.
+                  </p>
+                  <p><u><b>Email Id: </b></u>Email Id shall be used only for official purpose and the Company shall
+                     have all time, Ownership, access and right to use all information
+                     including emails of such mail id, during your employment and after cession.
+                  </p>
+                  <p><u><b>Personal Indebtedness:</b></u> In2IT Technologies shall not be responsible for personal
+                     indebtedness or
+                     other liabilities incurred by you, during/prior to your employment with In2IT Technologies. You
+                     understand and accept that you shall have no authority to pledge the credit of In2IT
+                     Technologies
+                     Inc to any person or entity without In2IT Technologies prior written authorization.
+                  </p>
+                  <p><u><b>Limitation:</b></u>Any claim by you against In2IT Technologies arising out of your
+                     employment / termination
+                     / separation of employment shall be made in writing and served upon In2IT Technologies within
+                     six
+                     (6) months from the date of your leaving In2IT Technologies. Any claim made by you beyond six
+                     (6)
+                     months shall be waived by you and shall not affect or bind In2IT Technologies with respect to
+                     such
+                     claim.
+                  </p>
+                  <p><u><b>Miscellaneous:</b></u></p>
+                  <ol style="list-style-type: lower-alpha;">
+                     <li> The waiver by either party of a breach of any provision of this Agreement by the other
+                        party
+                        shall not operate or be construed as a waiver of any subsequent breach.
+                     </li>
+                     <li> If any provision of this Agreement shall be declared to be illegal or unenforceable for any
+                        reason, the remaining provisions of this Agreement shall remain in full force and effect.
+                     </li>
+                     <li> This Agreement may be executed in counterpart originals, each of which shall be deemed an
+                        original.
+                     </li>
+                     <li> You shall not, without the Company's prior written consent, accept or demand loans, gifts,
+                        other
+                        benefits, of promises thereof, from the Company's clients or other persons with whom you
+                        have
+                        official or business contacts in the context of your activities for the Company.
+                     </li>
+                  </ol>
+                  <p>
+                     You represent and acknowledge that you are not subject to any contractual or legal restriction
+                     pursuant to an agreement with any prior employer which may prevent you from accepting this
+                     position as a In2IT Technologies Employee. This job offer and the Annexure incorporated herein
+                     by reference contain the entire Agreement and understanding between you and In2IT Technologies,
+                     with respect to the terms and conditions of your employment. No other promises, agreements or
+                     understandings, written or oral, not stated herein shall be binding unless it is in writing and
+                     signed by you and an authorized representative of In2IT Technologies, If any terms or provisions
+                     of this Agreement are held to be unenforceable for any reason, this Agreement in all other
+                     respects shall remain in full force and effect. As a condition to your acceptance of employment
+                     with In2IT Technologies, we require you to execute all Annexure copies of which are attached
+                     hereto and incorporated herein by reference. Please read the agreements and feel free to review
+                     it with counsel of your choice. If you are in agreement with the terms of this letter, please
+                     sign the duplicate copy of the letter as evidence of your acceptance and return it to us by
+                     <b>5th
+                     November, 2017</b> failing which, the offer will be withdrawn. This offer is contingent upon
+                     satisfactory
+                     completion of any pending reference checks, receipt of an executed copy of this offer letter and
+                     executed copies of Annexure.
+                  </p>
+                  <p>Please sign the duplicate copy of the letter as a token of acceptance and return it to <a
+                     href="mailto:rakeshshukla@in2ittech.com">rakeshshukla@in2ittech.com</a> for our records.</p>
+                  <p>You are welcome to contact us at <b> Unit-502/503, 5th Floor, DLF Cyber City, Infocity Area,
+                     Bhubaneswar- 751024 Tel: +91 674 65550 28/29/30.</b>
+                  </p>
+                  <p>We wish you the very best in your assignment and do hope that our relationship will be mutually
+                     beneficial.
+                  </p>
+                  <p>Let us build In2IT 2.0 <b>TOGETHER</b></p>
+                  <p>Sincerely,</p>
+                  <p>For and on Behalf of (“In2IT Technologies,”).</p>
+                  <p><b>HR DEPARTMENT</b></p>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="5">
+                  <table style="border: 1px solid #666; width: 100%;" class="salarytable">
+                     <tr>
+                        <td>Name</td>
+                        <td>Arti Yadav</td>
+                     </tr>
+                     <tr>
+                        <td>Designation and Grade</td>
+                        <td>Consultant, Grade 5, Level 1</td>
+                     </tr>
+                     <tr>
+                        <td>Department</td>
+                        <td>Application Development</td>
+                     </tr>
+                     <tr>
+                        <td>Location</td>
+                        <td>Noida</td>
+                     </tr>
+                     <tr>
+                        <td>City</td>
+                        <td>Noida</td>
+                     </tr>
+                  </table>
+                  <table style="border: 1px solid #666; width: 100%; margin-top:10px; margin-bottom:20px" class="salarytable" >
+                     <thead>
+                        <tr>
+                           <th>Particulars</th>
+                           <th>Monthly</th>
+                           <th>Annualized</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr style="background: darkturquoise;">
+                           <td colspan="3" class="bg-info text-white">Part A (Fixed Components)</td>
+                        </tr>
+                        <tr>
+                           <td>Basic</td>
+                           <td>[[${basicMonthly}]]	</td>
+                           <td>[[${basicAnnual}]]</td>
+                        </tr>
+                        <tr>
+                           <td>HRA</td>
+                           <td>[[${HRAMonthly}]]</td>
+                           <td>[[${HRAAnnual}]]</td>
+                        </tr>
+                        <tr>
+                           <td>Compensatory Allowance</td>
+                           <td>[[${compenatoryAllowanceMonthly}]]</td>
+                           <td>[[${compenatoryAllowanceAnnual}]]</td>
+                        </tr>
+                        <tr style="background: darkturquoise;">
+                           <td colspan="3" class="bg-info text-white">Part B (Allowances)</td>
+                        </tr>
+                        <tr>
+                           <td>Internet Allowance</td>
+                           <td>[[${internetAllowanceMonthly}]]</td>
+                           <td>[[${internetAllowanceAnnual}]]</td>
+                        </tr>
+                        <tr>
+                           <td>Medical Allowance</td>
+                           <td>[[${medicalAllowanceMonthly}]]</td>
+                           <td>[[${medicalAllowanceAnnual}]]</td>
+                        </tr>
+                        <tr style="background: darkturquoise;">
+                           <td colspan="3" class="bg-info text-white">Part C (MPLB*)</td>
+                        </tr>
+                        <tr>
+                           <td>Monthly Performance Linked Bonus*</td>
+                           <td>[[${monthlyPerformanceLinkedBonus}]]</td>
+                           <td>[[${monthlyPerformanceLinkedBonusAnnual}]]</td>
+                        </tr>
+                        <tr style="background:yellow" class="bg-warning text-white">
+                           <td>Gross Salary (Part A + Part B+ Part C)</td>
+                           <td>[[${grossSalaryMonthly}]]</td>
+						<td>[[${grossSalaryMonthlyAnnual}]]</td>
+                        </tr>
+                        <tr style="background: darkturquoise;">
+                           <td colspan="3" class="bg-info text-white">Part D (APLB**)</td>
+                        </tr>
+                        <tr>
+                           <td>Annual Performance Linked Bonus**</td>
+                           <td>[[${annualPerformanceLinkedBonusMonthly}]]</td>
+                           <td>[[${annualPerformanceLinkedBonusAnnual}]]</td>
+                        </tr>
+                        <tr style="background: darkturquoise;">
+                           <td colspan="3" class="bg-info text-white">Part E (Retirals and Benefits)</td>
+                        </tr>
+                        <tr>
+                           <td>PF (Provident Fund) - Employer Contribution</td>
+                           <td>[[${PFMonthly}]]</td>
+                           <td>[[${PFAnnual}]]</td>
+                        </tr>
+                        <tr>
+                           <td>Gratuity</td>
+                           <td>[[${gratuityMonthly}]]</td>
+                           <td>[[${gratuityAnnual}]]</td>
+                        </tr>
+                        <tr>
+                           <td>Insurance Benefits*</td>
+                           <td>[[${insuranceBenefitsMonthly}]]</td>
+                           <td>[[${insuranceBenefitsAnnual}]]</td>
+                        </tr>
+                        <tr  style="background:yellow" class="bg-warning text-white">
+                           <td>Total CTC</td>
+                           <td>[[${totalCTCMonthly}]]</td>
+						<td>[[${totalCTCAnnual}]]</td>
+                        </tr>
+                        <tr  style="background:darkturquoise"  class="bg-primary text-white">
+                           <td>Total CTC</td>
+                           <td colspan="2" class="text-center">[[${ctc}]]</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="5">
+                  <p>SIGNED and DATED at ………………………on the ………………Day of ……………..…20…..</p>
+                  ___________________________________
+                  <p>Signature of the
+                     Employee:__________________________________&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     Passport no:______________________________
+                  </p>
+                  <p>For and on Behalf of (“In2IT Technologies,”)</p>
+                  <p>HR DEPARTMENT’</p>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="5">
+                  <p style="text-align: center;">Intellectual Property Assignment</p>
+                  <p> Name: </p>
+                  <p> Date: </p>
+                  <p>In consideration of my employment with In2IT Technologies, and in view of the confidential nature
+                     of
+                     employment by reason of which I will obtain and have obtained special knowledge of In2IT
+                     Technologies, and business, its necessities and plans and the information of its customer, I
+                     hereby
+                     agree as follows:
+                  </p>
+                  <p><u><b>(a) Intellectual Property Assignment</b></u></p>
+                  <p>I hereby assign, to In2IT Technologies , or its successor, designees or assigns, any and all
+                     rights
+                     in any design, invention, discovery, or other intellectual property (including without
+                     limitation,
+                     right to apply for and obtain a patent) which I may create, develop or assist in creating of
+                     developing during my employment which design, inventions, discovery and other intellectual
+                     property
+                     relate to services provided/ to be provided or products or systems manufactured or developed or
+                     licensed or sold by In2IT Technologies ,. Whenever made by me and for any work made and/or
+                     created
+                     or cause to made and/or created in the course of my employment whether on the customer project
+                     or
+                     otherwise.
+                  </p>
+                  <p>In2IT Technologies, shall be the first owner of the copyrights therein and for work made and/or
+                     created or cause to made and/or created in the course of my employment. If by virtue of any law
+                     or
+                     any judgment, In2IT Technologies, is not the first owner, then I hereby assign, exclusively and
+                     irrevocably, the same, wholly and generally, forever throughout the world, without any
+                     obligation of
+                     payment of royalty or any other sum of money or benefit(s), the whole of the copyright(s) in all
+                     such work(s) and further waive all my moral rights wholly in favor of In2IT Technologies. I also
+                     agree to sign on demand, whether during the employment or any time thereafter, any papers and do
+                     any
+                     acts which may be deemed necessary or desirable by In2IT Technologies, to secure to In2IT
+                     Technologies, its successors, designees, or assign, any right relating to such design,
+                     invention,
+                     discovery, copyright or intellectual property and improvement including patents in India or any
+                     other foreign country.
+                  </p>
+                  <p><u><b>(b) Restrictions after Termination</b></u></p>
+                  <p>I further agree upon termination of my employment to surrender to In2IT Technologies ,
+                     all software programs, data (whether in hard copy form or in electronic form), notebooks,
+                     designs,
+                     drawings, blueprints, writings, manuals, price books, any business or market information,
+                     business and technical
+                     brochures, service models and techniques and other documents and materials (including all
+                     copies) then in my possession or
+                     control, which relate in any way to the business, research, development, sales, sales
+                     promotions, marketing or customer’s information or
+                     other activities of In2IT Technologies ,. The obligations stated under this Agreement shall
+                     survive the termination or discontinuation
+                     of my employment with In2IT Technologies,
+                  </p>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="2">
+                  <p>WITNESSED<br />
+                     _______________________
+                  </p>
+               </td>
+               <td>&nbsp;</td>
+               <td colspan="2">
+                  <p>ACCEPTED<br />
+                     _______________________
+                  </p>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="5">
+                  <p style="text-align: center;">Confidentiality Agreement </p>
+                  <p>I understand during my employment with In2IT Technologies, will have access to information for
+                     its
+                     customers, suppliers, vendors and licensors, any or all of which are referred to in this
+                     agreement
+                     as In2IT Technologies, I also understand that this information, whether technical or
+                     non-technical
+                     is commercially valuable. It is referred to in this agreement as “confidential information”.
+                  </p>
+                  <p> A few examples of confidential information are given below. However, these examples do not list
+                     all
+                     of the types of confidential information which I may develop or to which I may have access:
+                  </p>
+                  <ol>
+                     <li>Information of a business nature such as marketing, underwriting, Associate customer and
+                        claimant data,
+                        sales, and list of customers, including future developments and planning concerning them.
+                     </li>
+                     <li>Computers /software programs and employed documentation and material which are propriety to
+                        In2IT
+                        Technologies, or which In2IT Technologies, is under an obligation to prevent this
+                        disclosure.
+                     </li>
+                     <li> Information from In2IT Technologies vendor and supplier which is confidential, propriety or
+                        copyrighted.
+                     </li>
+                     <li> I hereby agree that:</li>
+                  </ol>
+                  <ul>
+                     <li>The confidential information shall remain the sole and exclusive propriety of In2IT
+                        Technologies, and I shall regard it as confidential information
+                     </li>
+                     <li>The confidential information is the property considered to be the trade secrets of In2IT
+                        Technologies, because it involves processes and
+                        compilation of information which are secret, confidential, and not generally known to the
+                        public and which are the products of expenditure of time,
+                        effort, money, and /or creative skills of In2IT Technologies,
+                     </li>
+                     <li> The use of confidential information is furnished to me during my employment on a
+                        confidential and secret basis for a sole and exclusive use and
+                        pursuing my employment duties at In2IT Technologies,
+                     </li>
+                     <li> I will not, during and after my employment at In2IT Technologies, publish, disclose, or
+                        otherwise divulge the confidential information to any
+                        person not specifically authorized by In2IT Technologies, to receive such information.
+                     </li>
+                     <li>I will not copy and confidential information for any purpose except with the express consent
+                        of the In2IT Technologies,
+                        officials or the expressed written authorization of the third party owner.
+                     </li>
+                     <li> Upon termination of my employment with In2IT Technologies ,, or at any other time at In2IT
+                        Technologies , request ,
+                        I agree to return promptly to In2IT Technologies, all confidential information, including
+                        but not limited to all manuals ,
+                        letters , notes, notebooks, reports, formulae, computer programs and employed documentation
+                        and material , memoranda,
+                        customer list and all other materials and all copies of them relating in any way to In2IT
+                        Technologies ,, which in any way
+                        were obtained by me during my employment at In2IT Technologies ,, which are in my possession
+                        or under my control. I further agree that I
+                        will not make or retain any copies of the above mentioned information and will so represent
+                        to In2IT Technologies, upon termination of my employment.
+                     </li>
+                     <li> I agree to indemnify In2IT Technologies, for all losses, damages, claims, costs including
+                        claims from third parties for violation of the terms
+                        contained herein.
+                     </li>
+                     <li> This confidentiality agreement will continue to be in effect after the termination of my
+                        employment with In2IT Technologies,
+                     </li>
+                  </ul>
+                  <p>If any provision of this Agreement is declared invalid or unenforceable with respect to a
+                     particular occurrence or circumstance or otherwise,
+                     that will not affect the validity, enforceability, or applicability of any other provision of
+                     this Agreement.
+                  </p>
+                  <p>Name:</p>
+                  <p>Signature: </p>
+                  <p> Date:</p>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="5">
+                  <p><u><b>Agreement – General Covenant against Disclosure and Covenant Not to
+                     Compete/Non-Solicitation</b></u>
+                  </p>
+                  <p> In consideration of my employment at In2IT Technologies, and in consideration of the wages or
+                     salary
+                     to be paid to me and regardless of the duration of my employment, I enter into the following
+                     agreements:
+                  </p>
+                  <ol>
+                     <li> I agree to perform competently, diligently, reliably, and to the best of my ability all
+                        duties
+                        required of me from time to time by In2IT Technologies , I shall not directly or indirectly,
+                        either
+                        as an Associate, employer, consultant, agent, principal, partner, stockholder, corporate
+                        officer,
+                        director or in any other individual or representative capacity, engage or participate in any
+                        business that is in competition in any manner whatsoever with the business of In2IT
+                        Technologies ,
+                        during the term of my employment with In2IT Technologies ,, either within or outside of
+                        business
+                        hours.
+                     </li>
+                     <li>I acknowledge and agree that I am bound by all of the terms and conditions of my Service
+                        Agreement in addition to the terms and conditions of this agreement.
+                     </li>
+                     <li>Actions Required on Termination: Upon termination of my employment at In2IT Technologies ,
+                        whether
+                        voluntary or involuntary (or at any other time upon the request of In2IT Technologies ,), I
+                        shall
+                        return to In2IT Technologies , all of its property of which I have had custody, including
+                        all
+                        handbooks , manuals ,notebooks, supplies, credit cards, keys, disks, tapes, desktops,
+                        laptops,
+                        records, statistics, data and Confidential Information (defined herein) for which I have
+                        acquired by
+                        virtue of my employment, regardless of form or media.
+                     </li>
+                     <li>
+                        Covenant Against Disclosure: I understand that it may be desirable and necessary for In2IT
+                        Technologies , or any of its suppliers, licensors, licensees or customer to disclose to me
+                        information which may include, by way of illustration and not by way of limitation,
+                        technical
+                        information, designs, drawings, processes, systems, procedures, formulas, test data,
+                        improvements,
+                        price lists, financial data, code books, invoices, financial statements and other financial
+                        information, computer programs, disks, printouts, sketches, customer and prospect contacts,
+                        customer
+                        and prospect lists, names, addresses or any other compilation of information written or
+                        unwritten
+                        (both individually and collectively referred to herein as "Confidential Information") during
+                        the
+                        course of my employment.<br />
+                        Because I will have access to and become familiar with such Confidential Information, I
+                        hereby agree to
+                        accept and retain such Confidential Information in confidence and agree, at all times during
+                        or after the termination of my employment,
+                        not to, directly or indirectly, disclose, reveal, use, copyright or patent such Confidential
+                        Information, without the prior written consent
+                        of an authorized officer of In2IT Technologies , I also agree to keep the contractual
+                        relationships of In2IT Technologies , with its suppliers,
+                        licensors, licensees, customers, contractors, and subcontractors confidential, including the
+                        names, addresses, or special requirements of In2IT Technologies ,’s
+                        customers. This Clause 4 is intended to apply to all materials,
+                        which I may compile, as well as to all materials furnished to me by anyone else in
+                        connection with my employment.
+                        <ol style="list-style-type: lower-alpha;">
+                           <li>Because it may not be clear to associate which information is Confidential
+                              Information,
+                              in order to minimize the possibility of inadvertent disclosure, Associate agrees to
+                              consult with In2IT Technologies , before making any disclosure of information
+                              covered by
+                              this Agreement.
+                           </li>
+                           <li>Associate may disclose information if such disclosure is directly pursuant to a
+                              valid
+                              and existing order of a court, or a governmental body or agency, within the India
+                              provided, however, that prior to such disclosure, the Associate (i) notifies In2IT
+                              Technologies , in writing of the prospective order, or proceeding giving rise to
+                              such
+                              order, and (ii) In2IT Technologies , has had the opportunity to prevent or limit
+                              such
+                              disclosure.
+                           </li>
+                           <li>In the event of a breach or threatened breach of this Clause 4 by Associate, In2IT
+                              Technologies , shall be entitled, in addition to all other remedies otherwise
+                              available
+                              to In2IT Technologies ,, Associate hereby consents to the issuance thereof forthwith
+                              in
+                              any court of competent jurisdiction without proof of specific damages. Associate
+                              waives
+                              any requirement for a bond in connection with any temporary or pendent lite
+                              injunctive
+                              relief.
+                           </li>
+                           <li>In the event that In2IT Technologies , shall enforce any part of this Agreement
+                              through legal proceedings and obtains any judgment or order in such proceedings,
+                              Associate agrees to pay to In2IT Technologies , any costs and attorneys’ fees
+                              reasonably
+                              incurred by In2IT Technologies , in connection with obtaining such judgment or
+                              order.
+                           </li>
+                        </ol>
+                        <p>If any court should hold any part of the covenants set forth herein to be unreasonable,
+                           or
+                           otherwise unenforceable, the parties expressly agree that the covenants set forth herein
+                           shall
+                           be enforced to the extent that would otherwise be deemed reasonable or enforceable. In
+                           the event
+                           of any breach by Associate, the Non-Compete Period shall be extended on a per diem basis
+                           for the
+                           period that Associate is in breach.
+                        </p>
+                     </li>
+                     <li> <u><b>Ownership of Work Product: </b></u>In2IT Technologies shall be the sole owner of all
+                        of my work product.
+                        For this purpose, “work product” means all inventions, improvements, discoveries,
+                        documentation,
+                        programming and technology (including all Employed intellectual property rights) that I may
+                        create
+                        (alone or with others, at work or elsewhere, during or after the normal workday) relating to
+                        the
+                        work I do, the business of In2IT Technologies , or any research or development conducted by
+                        In2IT
+                        Technologies , I agree to assign, disclose and deliver to In2IT Technologies ,, as In2IT
+                        Technologies ,’s property, all right and evidence I may have or acquire with respect to any
+                        and all
+                        work product, and I agree to take such further actions and sign such further instruments as
+                        In2IT
+                        Technologies , may request from time to time to protect and defend its ownership of any and
+                        all work
+                        product. I understand that disclosure of my suggestions and ideas are encouraged.
+                     </li>
+                     <li> <u><b>Partial Restriction on Post-Termination Competition:</b></u> In2IT Technologies,
+                        expects to invest
+                        considerable time, effort and capital in enhancing the value and desirability of my skills.
+                        Both
+                        this investment and my compensation reflect In2IT Technologies’ expectation of receiving a
+                        considerable return from the exclusive use of my services and know-how in the future, free
+                        from any
+                        danger that In2IT Technologies ,’s customers or competitors may attempt to cause me to leave
+                        In2IT
+                        Technologies , and wrongfully gain the benefit of In2IT Technologies ,’s investment. The
+                        partial
+                        restraint set forth in this Clause 6 does not, and cannot, provide complete protection for
+                        In2IT
+                        Technologies ,’s investment, development efforts, product, strategy, proprietary and
+                        Confidential
+                        Information, but In2IT Technologies , believes that in combination with the other provisions
+                        of this
+                        Agreement, it is the most fair and reasonable measure to protect In2IT Technologies ,’s
+                        interest,
+                        giving due regard to both my interests and the interests of In2IT Technologies ,
+                     </li>
+                     <li>
+                        <u><b>Covenant Not To Compete.</b></u> I hereby covenant and agree as a part of and
+                        ancillary to this Agreement
+                        that for the one year period following the termination of my employment, with In2IT
+                        Technologies,
+                        (irrespective of the reason for or such termination),
+                        <ol style="list-style-type: lower-alpha;">
+                           <li> I will not solicit, or attempt to solicit, or cause any third party to solicit,
+                              directly or indirectly, any customer of In2IT Technologies , for the purpose of
+                              selling
+                              or licensing products or services that are then competitive with the products and
+                              services that are then available to that customer from In2IT Technologies , ;
+                              provided,
+                              however, that this restriction shall apply only to customers of In2IT Technologies ,
+                              with whom I actually have material contact (meaning direct interaction, such as
+                              through
+                              sales calls, presentations or other business dealings) in the course of performing
+                              my
+                              employment duties for In2IT Technologies , within one (1) year period preceding the
+                              date
+                              my employment with In2IT Technologies , ends. It is understood that this restriction
+                              is
+                              necessary to avoid possible compromise of Confidential Information and business
+                              interest;
+                           </li>
+                           <li> I will not (1) seek or obtain employment of any kind by any means, directly or
+                              indirectly, as either Associate, agent or consultant, with any customer of In2IT
+                              Technologies ,’s for which I am providing services on behalf of In2IT Technologies ,
+                              that are competitive with the products and services available to the client from
+                              In2IT
+                              Technologies ,, provided however, that this restriction shall apply only to
+                              employment
+                              to perform the same or substantially similar services that I am performing for the
+                              client as a In2IT Technologies , Associate; or (2) induce or solicit any Associate
+                              of
+                              In2IT Technologies , to seek or obtain such employment with a customer of In2IT
+                              Technologies ,. This restriction applies to my acceptance of any employment by a
+                              customer through general advertising or third party recruitment;
+                           </li>
+                           <p>I accept and agree that the above covenants (a) and (b) are reasonable restrictions
+                              imposed with an objective to protect In2IT Technologies legitimate business
+                              interests and proprietary and confidential information. Given the compensation and
+                              benefits provided to me, I agree that the restriction as to time and scope contained
+                              herein are reasonable and necessary. To protect In2IT Technologies business
+                              interests and proprietary information. I have sufficient skills to find alternative,
+                              commensurate employment that would not violate the terms of this undertaking. I
+                              acknowledge that adherence to this undertaking shall not deprive me of the ability
+                              to earn a living or support my dependents. In the event of any violation of the
+                              terms of this clause,
+                              I agree that I shall be liable to In2IT Technologies, for liquidated damages in the
+                              amount of the gross salary earned by me during the following one
+                           </p>
+                        </ol>
+                        <p>
+                           (1) year from the date of such breach. I acknowledge and agree that said amount
+                           constitutes liquidated damages and not a penalty, and that the amount is a reasonable
+                           and fair estimate of the actual damages that In2IT Technologies, would incur upon such
+                           breach.
+                        </p>
+                        <p>Following the expiration of the one (1) year period described herein, I shall continue
+                           to be obligated under the Covenant Against Disclosure in Clause 4 so long as such
+                           Confidential Information remains proprietary or protectable as confidential or trade
+                           secret information.
+                        </p>
+                     </li>
+                     <li>Compliance: Not Contingent Upon Additional Consideration: I understand and acknowledge that
+                        the wages, compensation,, benefits training and experience that In2IT Technologies , provides to
+                        me shall be full and sufficient consideration for the promises contained in this Agreement. I
+                        have not been promised, and shall not claim, any additional or special payment or compliance
+                        with the covenants and agreements herein.
+                     </li>
+                     <li> Damages and remedies: I acknowledge and agree that if I violate this Agreement, In2IT
+                        Technologies, may take legal action against me as follows:
+                        (a) In2IT Technologies, may take legal action in the court specified below in Clause 13 for the
+                        liquidated damages in Clause 6 above.
+                        (b) Violation of this Agreement is likely to cause severe and irreparable Cause injury to the
+                        business, good will, client relations and proprietary information of In2IT Technologies, an
+                        injury that is not adequately compensable by money damages alone. Accordingly, in the event of a
+                        breach (or threatened or attempted breach) of this Agreement, In2IT Technologies , shall, in
+                        addition to any other rights and remedies, be entitled to immediate, appropriate injunctive
+                        relief, or a decree of specific performance of this Agreement, without the necessity of showing
+                        any irreparable injury or special damages, in any court of competent jurisdiction.
+                     </li>
+                     <li> Severability: Each clause and provision of this Agreement is severable from the contract and
+                        if one provision is declared invalid, the remaining provisions shall nevertheless remain in full
+                        force and effect. Further, the invalid provision or part shall remain enforceable to the extent
+                        permitted by law.
+                     </li>
+                     <li> Entire Agreement: This Agreement reflects the full and complete agreement between myself and
+                        In2IT Technologies on the subjects covered herein and supersedes and replaces all prior
+                        negotiations or agreements, whether written or oral. This Agreement shall only be modified,
+                        altered or replaced by a subsequent writing, signed by myself and an authorized officer of In2IT
+                        Technologies.
+                     </li>
+                     <li> Binding Effect: This Agreement shall inure to the benefit of, and be binding upon, my heirs,
+                        executors, administrators and personal representatives as well as the subsidiaries and
+                        affiliates of In2IT Technologies (together with their successors and assigns).
+                     </li>
+                     <li>Choice of Law: This Agreement will be governed and controlled in all respects by the laws of
+                        India excluding its principles of conflict of laws.
+                     </li>
+                     <li> Choice of Forum: The parties submit to the jurisdiction and venue of India with respect to
+                        any action arising, directly or indirectly, out of this Agreement or the performance or
+                     </li>
+                  </ol>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="5">
+                  <p>SIGNED and DATED at ………………………on the ………………Day of ……………..…20…..</p>
+                  ___________________________________
+                  <p>Signature of the
+                     Employee:__________________________________&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     Passport no:______________________________
+                  </p>
+                  <p>For and on Behalf of (“In2IT Technologies,”)</p>
+                  <p>HR DEPARTMENT’</p>
+               </td>
+            </tr>
+         </table>
+      </div>
+   </body>
+</html>
